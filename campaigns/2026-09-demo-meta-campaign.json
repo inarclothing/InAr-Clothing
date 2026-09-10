@@ -16,13 +16,15 @@
     "affiliate_url": "#demo-affiliate-link"
   },
   "creative": {
-    "format": "single_image",
+    "format": "animated_web_demo",
     "headline": "The Polo That Fits the Everyday.",
     "primary_text": "Clean. Comfortable. Easy to wear. Discover the INAR Polo Edit.",
     "cta": "Shop Now",
     "destination": "https://inarclothing.github.io/InAr-Clothing/",
+    "demo_page": "https://inarclothing.github.io/InAr-Clothing/campaign.html",
     "image_asset": "inar-demo-campaign.jpg",
-    "image_source": "generated_demo_creative"
+    "image_source": "generated_demo_creative",
+    "fallback": "css_animated_polo"
   },
   "audience": {
     "location": "India",
@@ -56,5 +58,5 @@
     "revenue": 0,
     "roas": 0
   },
-  "notes": "Demo campaign configuration for the INAR automation system. This is not a real Meta Ads campaign and does not spend money or create an external ad. The generated campaign creative is referenced as inar-demo-campaign.jpg; binary upload is pending because the current repository connector cannot write binary image blobs through the available file action."
+  "notes": "Demo campaign only. No real Meta campaign is running and no money is being spent. The campaign now has an animated web presentation with a CSS-generated polo fallback, so it works even without the generated image asset."
 }
