@@ -20,7 +20,9 @@
     "headline": "The Polo That Fits the Everyday.",
     "primary_text": "Clean. Comfortable. Easy to wear. Discover the INAR Polo Edit.",
     "cta": "Shop Now",
-    "destination": "https://inarclothing.github.io/InAr-Clothing/"
+    "destination": "https://inarclothing.github.io/InAr-Clothing/",
+    "image_asset": "inar-demo-campaign.jpg",
+    "image_source": "generated_demo_creative"
   },
   "audience": {
     "location": "India",
@@ -54,5 +56,5 @@
     "revenue": 0,
     "roas": 0
   },
-  "notes": "Demo campaign configuration for the INAR automation system. This is not a real Meta Ads campaign and does not spend money or create an external ad. Metrics are placeholders for dashboard/testing purposes."
+  "notes": "Demo campaign configuration for the INAR automation system. This is not a real Meta Ads campaign and does not spend money or create an external ad. The generated campaign creative is referenced as inar-demo-campaign.jpg; binary upload is pending because the current repository connector cannot write binary image blobs through the available file action."
 }
