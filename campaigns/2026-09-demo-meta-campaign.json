@@ -1,0 +1,58 @@
+{
+  "campaign_id": "INAR-DEMO-META-2026-09-001",
+  "name": "INAR Polo Drop — Demo Campaign",
+  "type": "demo",
+  "status": "demo_active",
+  "objective": "traffic_and_product_validation",
+  "platform": "Meta Ads",
+  "channels": ["Instagram", "Facebook"],
+  "product": {
+    "product_id": "DEMO-POLO-001",
+    "name": "INAR Classic Polo — Demo Product",
+    "category": "Men's Polo Shirt",
+    "price": 499,
+    "currency": "INR",
+    "affiliate": true,
+    "affiliate_url": "#demo-affiliate-link"
+  },
+  "creative": {
+    "format": "single_image",
+    "headline": "The Polo That Fits the Everyday.",
+    "primary_text": "Clean. Comfortable. Easy to wear. Discover the INAR Polo Edit.",
+    "cta": "Shop Now",
+    "destination": "https://inarclothing.github.io/InAr-Clothing/"
+  },
+  "audience": {
+    "location": "India",
+    "age_range": "18-34",
+    "gender": "Men",
+    "interests": ["men's fashion", "polo shirts", "casual wear", "online shopping"]
+  },
+  "budget": {
+    "daily_budget": 300,
+    "currency": "INR",
+    "demo_only": true
+  },
+  "schedule": {
+    "start": "2026-09-10T10:00:00+05:30",
+    "end": "2026-09-17T10:00:00+05:30"
+  },
+  "tracking": {
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "inar_demo_meta_2026_09_001",
+    "events": ["landing_page_view", "product_view", "affiliate_click", "qualified_lead"]
+  },
+  "demo_metrics": {
+    "impressions": 0,
+    "reach": 0,
+    "link_clicks": 0,
+    "ctr": 0,
+    "qualified_leads": 0,
+    "affiliate_clicks": 0,
+    "spend": 0,
+    "revenue": 0,
+    "roas": 0
+  },
+  "notes": "Demo campaign configuration for the INAR automation system. This is not a real Meta Ads campaign and does not spend money or create an external ad. Metrics are placeholders for dashboard/testing purposes."
+}
