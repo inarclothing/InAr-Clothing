@@ -1,0 +1,28 @@
+{
+  "campaign_id": "INAR-WE-2026-09-001",
+  "name": "INAR Weekly Edit — Test Campaign",
+  "status": "planned",
+  "objective": "product_validation",
+  "channels": ["instagram", "facebook"],
+  "platform": "Meta Ads",
+  "product_id": null,
+  "landing_page": "https://inarclothing.github.io/InAr-Clothing/",
+  "audience": {
+    "location": "India",
+    "age_range": "18-34",
+    "interest_direction": "men's fashion, polo shirts, casual wear"
+  },
+  "budget": null,
+  "optimization": "qualified_enquiries",
+  "tracking": {
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "inar_weekly_edit_2026_09_001",
+    "events": ["landing_page_view", "lead_form_start", "qualified_lead", "affiliate_click"]
+  },
+  "schedule": {
+    "start": null,
+    "end": null
+  },
+  "notes": "Campaign configuration created in the INAR repository. No paid Meta campaign has been launched yet. Activation requires a selected product, budget, creative, and authorized Meta Ads account/API access."
+}
